@@ -5,6 +5,8 @@ namespace R5T.Z0056
 {
     public static class Instances
     {
+        public static T0212.F000.IDocumentationElementOperator DocumentationElementOperator => T0212.F000.DocumentationElementOperator.Instance;
+        public static T0212.F000.IDocumentationFileDocumentOperator DocumentationFileDocumentOperator => T0212.F000.DocumentationFileDocumentOperator.Instance;
         public static T0212.F000.IDocumentationFileOperator DocumentationFileOperator => T0212.F000.DocumentationFileOperator.Instance;
         public static Z0055.IDocumentationFileXmlTexts DocumentationFileXmlTexts => Z0055.DocumentationFileXmlTexts.Instance;
         public static Z0055.IMemberElementXmlTexts MemberElementXmlTexts => Z0055.MemberElementXmlTexts.Instance;
